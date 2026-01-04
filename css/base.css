@@ -410,3 +410,14 @@ body #cdawrap {
 		right: 2rem;
 	}
 }
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .grid__item-img {
+    object-fit: contain;
+    background-color: #000;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}

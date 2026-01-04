@@ -291,3 +291,10 @@ preloadImages('.grid__item-inner').then(() => {
 	scroll();
 	document.body.classList.remove('loading');
 });
+/* Disable heavy animations on mobile */
+if (window.innerWidth < 768) {
+  if (window.lenis) {
+    window.lenis.destroy();
+  }
+  gsap.globalTimeline.clear();
+}
