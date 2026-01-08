@@ -362,7 +362,7 @@ body #cdawrap {
 
 .grid__item {
 	aspect-ratio: var(--grid-item-ratio);
-	width: 70%;
+	width: 100%;
 	height: auto;
 	/* overflow: hidden; */
 	position: relative;
